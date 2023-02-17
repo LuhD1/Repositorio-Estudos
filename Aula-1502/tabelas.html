@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 15-02</title>
+</head>
+<body>
+    <h2>Img</h2>
+    <figure>
+        <img width="350px" height="200px" src="/Aula-1502/Midias/eu-a-patroa-e-as-criancas.jpeg" alt="imagen ilustrativa"/>
+        <figcaption>aaaa</figcaption>
+    </figure>
+    <h2>Video</h2>
+    <video width="350px" height="200px" src="/Aula-1502/Midias/abertura-chaves.mp4" controls></video>
+
+    <h3>Lista não ordenada</h3>
+    <!-- Unordered List -> Lista não ordenada -->
+    <!-- List Item -> Itens da lista -->
+    <ul>
+        <li>Essa</li>
+        <li>é</li>
+        <li>Uma</li>
+        <li>Lista</li>
+        <li>Não</li>
+        <li>Ordenada</li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <h3>Lista Ordenada (Receitas por exemplo)</h3>
+    <ol>
+        <li>Essa</li>
+        <li>é</li>
+        <li>Uma</li>
+        <li>Lista</li>
+        <li>Ordenada</li>
+    </ol>
+    <br>
+    <hr>
+    <br>
+    <dl>
+        <dt>
+            <h3>Olá</h3>
+            <dd>
+                <!-- Pode ser usar como se fosse um <p></p> -->
+            </dd>
+        </dt>
+    </dl>
+
+    <!-- <tr> table row </tr> -->
+
+    <!-- <td> Table data </td> -->
+
+    <!-- <th> table head </th> -->
+
+    <!-- <tfoot> Rodapé </tfoot> -->
+
+    <!-- <thead> Cabeçalho da tabela </thead> -->
+
+    <!-- <tbody> Corpo da tabela </tbody> -->
+
+    <!-- <colgroup> Editar as colunas ou linhas
+        <col>  Editar colunas especificas
+    </colgroup> -->
+    
+    <table border="1px">
+        <colgroup>
+            <col style="width: 50px;">
+            <col style="width: 100px;">
+            <col>
+            <col style="background-color: blanchedalmond;">
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Idade</th>
+            <th>Estado</th>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>Damasceno</td>
+            <td>23 Anos</td>
+            <td rowspan="4">São Paulo</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>Damasceno</td>
+            <td>23 Anos</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">Lucas Damasceno</td>
+        </tr>
+    </table> 
+</body>
+</html>

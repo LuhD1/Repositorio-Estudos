@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aula de HTML e CSS</title>
+  </head>
+  <body>
+    <h3>Cadastro de Perfil</h3>
+    <form>
+        <fieldset>
+            <legend>é os Guri</legend>
+            <label for="cnome">Nome:</label>
+            <input required type="text" name="nome" id="cnome" placeholder="Digite seu nome aqui" minlength="1" maxlength="70" size="40"> <br>
+            
+            Senha:
+            <input required type="password" name="senha" placeholder="Digite seu senha aqui"> <br>
+            
+            E-mail:
+            <input required type="email" name="email" placeholder="Digite seu e-mail aqui" value="gabriel@mail.com"> <br>
+            
+            Telefone:
+            <input required type="tel" name="telefone" value="99 99999-9999"> <br>
+            
+            URL do Instagram:
+            <input type="url" name="instagram"> <br>
+            
+            Idade:
+            <input type="number" min="0" max="130" name="idade" value="21"> <br>
+            
+            Data de Nascimento:
+            <input type="date" min="2000-01-01" max="2023-02-16" name="dataNasc"> <br>
+            
+            Hora de Nascimento:
+            <input type="time" name="horaNasc"> <br>
+            
+            Data e Hora Nascimento:
+            <input type="datetime-local" disabled> <br>
+            
+            Foto de Perfil:
+            <input type="file" name="avatar" accept=".jpeg,.png" multiple> <br>
+            
+            Interesses:
+            Humanas <input name="interesses" type="checkbox" checked>
+            Exatas <input name="interesses" type="checkbox">
+            Linguagens <input name="interesses" type="checkbox">
+            Ciências <input name="interesses" type="checkbox">
+            <br>
+            
+            Escolha sue cor favorita:
+            <input type="color" name="cor"> <br>
+            
+            Sexo:
+            <input type="radio" name="sexo" checked>Masculino
+            <input type="radio" name="sexo">Feminino
+            <br>
+            
+            Nível de Inglês:
+            1 <input type="range" min="0" max="5" name="ingles" value="0"> 5 <br>
+            
+            Escondido: (Veja no inspecionar)
+            <input type="hidden" value="7834349343947" name="escondido"> <br>
+            
+            Conte um pouco sobre você: <br>
+            <textarea required rows="4" cols="40" placeholder="Digite seu texto aqui" name="texto">
+                Texto inicial
+            </textarea> <br>
+            
+            Escolaridade:
+            <select name="escolaridade" required>
+                <option disabled selected>Selecione uma opção</option>
+                <option>Ensino Fundamental Completo</option>
+                <option>Ensino Medio Completo</option>
+                <option>Ensino Seuperior Completo</option>
+            </select> <br><br>
+            
+            <!-- <input type="submit" value="Enviar"> submeter -->
+            <button type="submit">Enviar</button>
+            <button type="button">Não Faz Nada</button>
+            <button type="reset">Reiniciar</button>
+        </fieldset>
+    </form>
+  </body>
+</html>

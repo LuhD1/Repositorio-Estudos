@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+.form-container {
+  height: 230px;
+  width: 210px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.rodapé {
+  margin-top: 10px;
+
+  width: 66.4em;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(146, 205, 228);
+  border: 1px solid black;
+}
+
+.block-01 {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.tabela {
+  border: solid black 2px;
+}
+
+.tabelaDeContato {
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 10px;
+}
+.tabelaDeContato2,
+.field {
+  border-radius: 10px;
+}
+
+#label {
+  margin-left: 6px;
+}
+
+#minhaEmpresa {
+  text-align: center;
+}
+
+.field {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#nav {
+  text-decoration: none;
+}
+
+#nav {
+  margin-left: 60px;
+  padding-left: 20px;
+}
+
+#nav:hover {
+  font-size: 18px;
+}
+
+.form-container {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.ttd {
+  margin-left: 160px;
+}
+
+.tabelaDeContato,
+.tabelaDeContato2,
+.field {
+  background-color: beige;
+}
+
+.form-btn {
+  display: inline-block;
+  padding: 6px 10px;
+  font-size: 9px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: #3e8e41;
+}
+
+.form-btn:focus {
+  outline: none;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Página de Contato</title>
+  </head>
+  <body>
+    <header class="block-00">
+      <fieldset class="field">
+        <legend id="minhaEmpresa">Minha Empresa</legend>
+        
+          <a id="nav" href="#">Moda</a></>
+          <a id="nav" href="#">Esporte</a></>
+          <a id="nav" href="#">Eletronicos </a></>
+          <a id="nav" href="#contatoAncora">Contato</a></>
+       
+      </fieldset>
+    </header>
+    <main>
+      <section class="block-01">
+        <fieldset class="tabelaDeContato2">
+          <legend>Contato</legend>
+          <p>
+            Entre em contato conosco através do formulário abaixo ou pelos meios
+            de contato listados na tabela.
+          </p>
+          <form class="form-container">
+            <label id="label" for="nome" >Nome:</label><br>
+            <input required type="text" id="nome" name="nome" /><br />
+            <label id="label" for="email">E-mail:</label><br>
+            <input required type="email" id="email" name="email" /><br />
+            <label id="label" for="telefone">Telefone:</label><br>
+            <input required type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx"/><br />
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea rows="4" cols="22" id="mensagem" name="mensagem"></textarea><br />
+            <input class="form-btn" type="submit" value="Enviar" />
+          </form>
+        </fieldset>
+      </section>
+    </main>
+    <section>
+        <fieldset class="tabelaDeContato">
+            <legend id="contatoAncora">Tabela de contato</legend>
+            <table class="ttd" border="1">
+                <tr>
+                    <th>Endereço:</th>
+                    <td>Rua da Empresa, 123 - São Paulo/SP</td>
+                </tr>
+                <tr>
+                    <th>Telefone:</th>
+                    <td>(11) 1234-5678</td>
+                </tr>
+                <tr>
+                    <th>E-mail:</th>
+                    <td>contato@empresa.com.br</td>
+                </tr>
+            </table>
+            </table>
+        </fieldset>   
+    </section>  
+      <footer class="rodapé">
+        <p id="rodapeNome">
+          &copy; 2023 Minha Empresa. Todos os direitos reservados.
+        </p>
+      </footer>
+    </fieldset>
+  </body>
+</html>
