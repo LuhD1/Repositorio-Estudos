@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.screen {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/1d0d41a3205c2fdf26253495c6212573.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+a {
+  font-size: 35px;
+  align-items: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+

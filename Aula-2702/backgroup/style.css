@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.backgroud,
+.backgroud3 {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.backgroud2 {
+  background: linear-gradient(blue, rgba(130, 27, 226, 0.288));
+}
+
+.backgroud3 {
+  background-color: rgba(130, 27, 226, 0.288);
+}
+
+.backgroud4 {
+  width: 100%;
+  height: 60px;
+  border: 2px solid black;
+}
+.backgroud4 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 5%,
+    rgba(0, 212, 255, 0.8253676470588236) 50%,
+    rgba(9, 9, 121, 1) 92%
+  );
+}
+
+.screen {
+ 
+  background-image: url(../img/plano-de-fundo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.screen2 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/plano-de-fundo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.568);
+}

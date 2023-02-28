@@ -1,0 +1,26 @@
+/*
+    display -> Visualização;
+    *block -> Ocupa toda a largura disponivel do conteiner (Caixa q guarda outras caixas);
+    *inline -> Conteudo ocupa o espaço em linha (Uma lado do outro);
+    *inline-block -> Se comporta como bloco mas os elementos são dispostos um ao lado do outro;
+*/    
+.border {
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.none {
+    display: none;
+}
+
+.none {
+    display: none;
+}
